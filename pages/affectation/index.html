@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row shadow-4">
+            <nav class="navbar navbar-expend navbar-light bg-warning d-flex-inline">
+                <a href="" class="navbar-brand">
+                    <i class="fas fa-school"></i> Student Training
+                </a>
+
+                <ul class="navbar-nav d-flex flex-row justify-content-evenly">
+                    <li class="nav-item mx-2">
+                        <a href="" class="nav-link active"> <i class="fas fa-home"></i> Accueil</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="" class="nav-link"><i class="fas fa-user"></i> Utilisateur</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="" class="nav-link"><i class="fas fa-user-friends"></i> Etudiants </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="" class="nav-link"><i class="fas fa-folder"></i> Dossier</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="../pages/affectation/index.html" class="nav-link"><i class="fas fa-sms"></i> Lettre</a>
+                    </li>
+                    <div class="dropdown">
+                        <li class="nav-item me-4 ">
+                            <a href="" class="nav-link dropdown-toggle " 
+                            id="dropdownUser" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user-circle"></i> username
+                            
+                            <ul class="dropdown-menu dropdown-menu-dark position-absolute">
+                                <li><a href="" class="dropdown-item">
+                                    <i class="fas fa-tachometer"></i> Profile
+                                </a></li>
+                                <hr class="dropdown-divider">
+                                <li><a href="" class="dropdown-item">
+                                    <i class="fas fa-cog"></i> Parametre
+                                </a></li>
+                                <hr class="dropdown-divider">
+                                <li><a href="" class="dropdown-item">
+                                    <i class="fas fa-sign-out-alt"></i> Déconnexion
+                                </a></li>
+                            </ul>
+                        </a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </div>    
+    </div>
+
+    <!-- contenu -->
+    <div>
+        <h1 style="text-align: center;"><i><u>LISTE STAGE</u></i></h1>
+
+
+        <div class="text-md-end">
+            <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#modelId">Nouveau Stage</button>
+        </div>
+        <table class="table table-bordered table-condensed table-body-center">
+            <thead>
+                <tr>
+                    <th scope="col">MATRICULE</th>
+                    <th scope="col">NOM</th>
+                    <th scope="col">PRENOM</th>
+                    <th scope="col">EMAIL</th>
+                    <th scope="col">TELEPHONE</th>
+                    <th scope="col">SEXE</th>
+                    <th scope="col">lIEU DE TRAVAILLE</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">19/0214</th>
+                    <td>NIYONKURU</td>
+                    <td>Jean</td>
+                    <td>niyonkuru@gmail.com</td>
+                    <td>+257 61615254</td>
+                    <td>M</td>
+                    <td>Kibenga</td>
+                    <td>
+                        <form action="" method="post">
+                            <button class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modelId" class="btn  btn-primary ms-1 btn-sm"><i class="fas fa-pen"></i></a>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">17/0256</th>
+                    <td>NIYOMUGISHA</td>
+                    <td>Jeanne</td>
+                    <td>niyonkuru@gmail.com</td>
+                    <td>+257 69632587</td>
+                    <td>F</td>
+                    <td>Rohero</td>
+                    <td>
+                        <form action="" method="post">
+                            <button class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modelId" class="btn  btn-primary ms-1 btn-sm"><i class="fas fa-pen"></i></a>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">11/0258</th>
+                    <td>NDAYISABA</td>
+                    <td>Login</td>
+                    <td>ndayisaba@gmail.com</td>
+                    <td>+257 71716225</td>
+                    <td>M</td>
+                    <td>Kiriri</td>
+                    <td>
+                        <form action="" method="post">
+                            <button class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modelId" class="btn  btn-primary ms-1 btn-sm"><i class="fas fa-pen"></i></a>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">14/236985</th>
+                    <td>MANISHIMWE</td>
+                    <td>Ella</td>
+                    <td>manishimwe@gmail.com</td>
+                    <td>+257 61615254</td>
+                    <td>F</td>
+                    <td>Kajaga</td>
+                    <td>
+                        <form action="" method="post">
+                            <button class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modelId" class="btn  btn-primary ms-1 btn-sm"><i class="fas fa-pen"></i></a>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">12/0369</th>
+                    <td>NDAYISABA</td>
+                    <td>Claudine</td>
+                    <td>ndayisaba@gmail.com</td>
+                    <td>+257 61205693</td>
+                    <td>F</td>
+                    <td>Musumba</td>
+                    <td>
+                        <form action="" method="post">
+                            <button class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modelId" class="btn  btn-primary ms-1 btn-sm"><i class="fas fa-pen"></i></a>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">14/02369</th>
+                    <td>IRADUKUNDA</td>
+                    <td>Alcene</td>
+                    <td>iradukunda@gmail.com</td>
+                    <td>+257 61205693</td>
+                    <td>M</td>
+                    <td>Bwiza</td>
+                    <td>
+                        <form action="" method="post">
+                            <button class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modelId" class="btn  btn-primary ms-1 btn-sm"><i class="fas fa-pen"></i></a>
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="../assets/js/all.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
