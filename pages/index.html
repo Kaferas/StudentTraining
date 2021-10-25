@@ -32,9 +32,27 @@
                     <li class="nav-item mx-2">
                         <a href="" class="nav-link"><i class="fas fa-sms"></i> Lettre</a>
                     </li>
-                    <li class="nav-item mx-2">
-                        <a href="" class="nav-link"><i class="fas fa-user-circle"></i> username</a>
-                    </li>
+                    <div class="dropdown">
+                        <li class="nav-item me-4 ">
+                            <a href="" class="nav-link dropdown-toggle " 
+                            id="dropdownUser" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user-circle"></i> username
+                            
+                            <ul class="dropdown-menu dropdown-menu-dark position-absolute">
+                                <li><a href="" class="dropdown-item">
+                                    <i class="fas fa-tachometer"></i> Profile
+                                </a></li>
+                                <hr class="dropdown-divider">
+                                <li><a href="" class="dropdown-item">
+                                    <i class="fas fa-cog"></i> Parametre
+                                </a></li>
+                                <hr class="dropdown-divider">
+                                <li><a href="" class="dropdown-item">
+                                    <i class="fas fa-sign-out-alt"></i> Déconnexion
+                                </a></li>
+                            </ul>
+                        </a>
+                        </li>
+                    </div>
                 </ul>
             </nav>
         </div>    
